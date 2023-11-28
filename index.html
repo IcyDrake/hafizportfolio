@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hafizuddin's Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/6f8648dc67.js" crossorigin="anonymous"></script>
+</head>
+<body>
+<div id="header">
+    <div class="container">
+        <nav>
+            <img src="images/logo.png" class="logo">
+            <ul id="sidemenu">
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li id="close-icon" style="display:none;"></li><i class="fas fa-times" onclick="closemenu()"></i></li>
+            </ul>
+            <i class="fas fa-bars" onclick="openmenu()"></i>
+        </nav>
+        <div class="header-text">
+            <p>UI/UX, Graphic Designer & Photographer</p>
+            <h1>Hi,<br>My Name <span>Hafizuddin A'li</span><br>From Perak, Malaysia.</h1>
+        </div>
+    </div>
+</div>
+
+<!---------About Me-------->
+
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="images/bg.jpg">
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-title">About Me</h1>
+                <p>I was born in Ipoh, Perak. It was my dream to be in this world of creativity.
+                     Since I was a kid, I always wanted to see my artwork being appreciated by others.
+                      Today, I can proved that anything that you dream can come truth.
+                       I started my journey by taking Bachelor's of Information Technology
+                       (Informatics Media) in UniSZA. From that very day, I start to practice my skills in photography,
+                        editing using Adobe Illustrator, Adobe Photoshop and Canva but there's still a lot of things that i need to improve. 
+                         In this moment, you are reading my first ever working website that been created by me.
+
+                        <div class="tab-titles">
+                            <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                            <p class="tab-links" onclick="opentab('education')">Education</p>
+                        </div>
+                        <div class="tab-contents active-tab" id="skills">
+                            <ul>
+                                <li><span>Graphic Design</span><br>Designing Poster<br>Clothing Design</li>
+                                <li><span>Web Development</span><br>Web App Development</li>
+                                <li><span>UI/UX</span><br>Designing Web/App interfaces</li>
+                                <li><span>Photography</span><br>Nature Photography<br>Moment Photography</li>
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="education">
+                            <ul>
+                                <li><span>2022 - Current</span><br>Universiti Sultan Zainal Abidin, Terengganu</li>
+                                <li><span>2020 - 2022</span><br>Perak Matriculation</li>
+                                <li><span>2014 - 2019</span><br>MARA Junior Science College Lenggong, Perak</li>
+                            </ul>
+                        </div>
+                </p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!--------portfolio-------->
+
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Projects</h1>
+    <div class="project-list">
+    <div class="project">
+        <img src="images/project-1.png">
+        <div class="layer">
+            <h3>Clothing and Poster Design</h3>
+            <p>
+                Varsity design for my university and promotion poster.
+            </p>
+        </div>
+    </div>
+    <div class="project">
+        <img src="images/project-2.png">
+        <div class="layer">
+            <h3>Logo Design in Mock Up</h3>
+            <p>
+                This logo were created when we need to make a new company from scratch so in my project this logo represent a courier business company.
+            </p>
+        </div>
+    </div>
+    <div class="project">
+        <img src="images/project-3.png">
+        <div class="layer">
+            <h3>Poster Design</h3>
+            <p>
+                Poster for one of the event that held for multimedia students in my university.
+            </p>
+        </div>
+    </div>
+    <div class="project">
+        <img src="images/project-4.png">
+        <div class="layer">
+            <h3>Mascot Design</h3>
+            <p>
+                This mascot where created when i have been given a task by my lecturer to design new mascot for my university with a specific characteristics.
+            </p>
+        </div>
+    </div>
+    <div class="project">
+        <img src="images/project-5.jpg">
+        <div class="layer">
+            <h3>Moment Photography</h3>
+            <p>
+                This moment were captured on Iphone 13 after Asr' Prayer.
+            </p>
+        </div>
+    </div>
+    <div class="project">
+        <img src="images/project-6.jpg">
+        <div class="layer">
+            <h3>Moment Photography</h3>
+            <p>
+                Morning vibes with breakfast moment were captured on Iphone 13.
+            </p>
+        </div>
+    </div>
+    <div class="project">
+        <img src="images/project-7.jpg">
+        <div class="layer">
+            <h3>Moment Photography</h3>
+            <p>
+                Beautiful car caught in scene were captured on Iphone 13.
+            </p>
+        </div>
+    </div>
+    <div class="project">
+        <img src="images/project-8.jpg">
+        <div class="layer">
+            <h3>Nature Photography</h3>
+            <p>
+                Stunning view after doing daily exercises.
+            </p>
+        </div>
+    </div>
+</div>
+<a href="#" class="btn">See more</a>
+    </div>
+</div>
+
+<!-----------contact------------->
+
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fas fa-phone"></i> hafizuddinali55@gmail.com</p>
+                <p><i class="fas fa-paper-plane"></i> 0135998330</p>
+                <div class="social-icons">
+                    <a href="https://www.facebook.com/muhd.h.ali.7/"><i class="fab fa-facebook"></i></a>
+                    <a href="https://www.instagram.com/hafiz.din_/"><i class="fab fa-instagram"></i></a>
+                    <a href="www.linkedin.com/in/muhammad-hafizuddin-a-li-68238a182"><i class="fab fa-linkedin"></i></a>
+                </div>
+                
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>
+                Copyright © Hafiz. <i class="fas fa-heart"></i>
+            </p>
+        </div>
+    </div>
+</div>
+
+<script>
+
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+    
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+
+</script>
+
+<script>
+    var sidemenu= document.getElementById("sidemenu");
+
+    function openmenu(){
+        sidemenu.style.right= "0";
+    }
+    function closemenu(){
+        sidemenu.style.right= "-200";
+    }
+
+</script>
+<script>
+    function openmenu() {
+        document.getElementById("sidemenu").style.width = "400px";
+        document.getElementById("close-icon").style.display = "block";
+    }
+
+    function closemenu() {
+        document.getElementById("sidemenu").style.width = "0";
+        document.getElementById("close-icon").style.display = "none";
+    }
+</script>
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbxhM-ETskOjmEWaWrhmb-QyqShkGFiNXC_Hq6YRJ8GgWkEF3RW-tHBlDHP8ECcJd5C5tA/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("msg")
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML = "Message sent successfully!"
+            setTimeout(function(){
+                msg.innerHTML= ""
+            },5000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+</body>
+</html>
